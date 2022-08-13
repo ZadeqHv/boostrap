@@ -1,0 +1,17 @@
+
+#collapseThree .accordion-body img {
+   display: none;
+}
+
+#collapseOne .accordion-body {
+     background-color: black;
+     color: white;
+}
+@media screen and (max-width: 768px){
+    #collapseThree .accordion-body img{
+        display: block;
+    }
+    #collapseThree .accordion-body iframe{
+        display: none;
+    }
+}
